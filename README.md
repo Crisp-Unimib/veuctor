@@ -21,12 +21,16 @@ embeddings as neutral preprocessing tools.\
 It demonstrates that **embedding choice is a methodological decision**
 with measurable empirical consequences for:
 
--   Occupational similarity structures\
--   Skill bundle composition\
--   Classification performance\
--   Wage and education prediction\
+-   Occupational similarity structures
+-   Skill bundle composition
+-   Classification performance
+-   Wage and education prediction
 -   Cross-country semantic comparability
 
+# Credits
+VEUCTOR is partially supported within the research activity of a grant entitled "PILLARS - Pathways to Inclusive Labour Markets"-
+underthecallH-2020TRANSFORMATIONS18-2020"Technologicaltransformations,skills,andglobalization-futurechallengesforshared
+prosperity", grant agreement NUMBER 101004703 - PILLARS. see https://www.h2020-pillars.eu/
 ------------------------------------------------------------------------
 
 # 🖼 Methodological Workflow
