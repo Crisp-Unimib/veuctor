@@ -1,3 +1,3 @@
-theme: jekyll-theme-cayman
 title: VEUCTOR
-description: Vector embeddings for...
+description: Vector toolkit and experiments
+markdown: kramdown
