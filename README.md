@@ -27,10 +27,10 @@ with measurable empirical consequences for:
 -   Wage and education prediction
 -   Cross-country semantic comparability
 
-# Credits
-VEUCTOR is partially supported within the research activity of a grant entitled "PILLARS - Pathways to Inclusive Labour Markets"-
-underthecallH-2020TRANSFORMATIONS18-2020"Technologicaltransformations,skills,andglobalization-futurechallengesforshared
-prosperity", grant agreement NUMBER 101004703 - PILLARS. see https://www.h2020-pillars.eu/
+**Credits**
+
+VEUCTOR is partially supported within the research activity of a grant entitled "PILLARS - Pathways to Inclusive Labour Markets" under the call H-2020 TRANSFORMATIONS 18-2020 "Technological transformations, skills, and globalization - future challenges for shared prosperity", grant agreement number 101004703 - PILLARS. See https://www.h2020-pillars.eu/
+
 ------------------------------------------------------------------------
 
 # 🖼 Methodological Workflow
