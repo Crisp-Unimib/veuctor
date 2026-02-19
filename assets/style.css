@@ -1,0 +1,118 @@
+:root{
+  --bg:#0b1220;
+  --card:#111b2e;
+  --text:#e9eefc;
+  --muted:#b8c3e6;
+  --accent:#5aa7ff;
+  --border:rgba(255,255,255,.10);
+}
+
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: radial-gradient(1200px 600px at 20% 0%, rgba(90,167,255,.20), transparent 60%),
+              radial-gradient(900px 500px at 80% 10%, rgba(140,90,255,.18), transparent 55%),
+              var(--bg);
+  color:var(--text);
+}
+
+a{ color: var(--accent); text-decoration:none; }
+a:hover{ text-decoration:underline; }
+
+.wrapper{
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 18px 60px;
+}
+
+.hero{
+  border:1px solid var(--border);
+  background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+  border-radius: 20px;
+  padding: 36px 28px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+.hero h1{
+  margin: 0 0 8px;
+  font-size: 44px;
+  letter-spacing: .2px;
+}
+
+.subtitle{
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 60ch;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin: 16px 0 8px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.03);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.btn.primary{
+  background: linear-gradient(180deg, rgba(90,167,255,.95), rgba(90,167,255,.75));
+  border-color: rgba(90,167,255,.55);
+  color:#071021;
+}
+
+.meta{
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.grid{
+  margin-top: 18px;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.card{
+  grid-column: span 12;
+  border:1px solid var(--border);
+  background: rgba(17,27,46,.70);
+  border-radius: 18px;
+  padding: 18px 18px;
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+
+.card h2{
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.card ul{
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+.small{
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 14px;
+}
+
+@media (min-width: 840px){
+  .card:nth-child(1){ grid-column: span 4; }
+  .card:nth-child(2){ grid-column: span 4; }
+  .card:nth-child(3){ grid-column: span 4; }
+}
