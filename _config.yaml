@@ -1,3 +1,18 @@
 title: VEUCTOR
-description: Vector toolkit and experiments
-markdown: kramdown
+description: Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements
+url: https://crisp-unimib.github.io
+baseurl: /veuctor
+
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+search_enabled: true
+
+aux_links:
+  "GitHub repository":
+    - "https://github.com/Crisp-Unimib/veuctor"
+
+# opzionale: mostra un link "Edit this page"
+gh_edit_link: true
+gh_edit_repository: "https://github.com/Crisp-Unimib/veuctor"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
