@@ -3,9 +3,9 @@ description: Training, Selecting, and Aligning Word Embeddings from European Onl
 url: https://crisp-unimib.github.io
 baseurl: /veuctor
 
-remote_theme: just-the-docs/just-the-docs
-color_scheme: dark
-search_enabled: true
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 aux_links:
   "GitHub repository":
@@ -16,3 +16,4 @@ gh_edit_link: true
 gh_edit_repository: "https://github.com/Crisp-Unimib/veuctor"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
+
