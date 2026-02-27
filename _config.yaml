@@ -1,6 +1,6 @@
 title: VEUCTOR
 description: Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements
-url: https://crisp-unimib.github.io
+url: https://veuctor.eu
 baseurl: ""
 
 remote_theme: pages-themes/cayman@v0.2.0
