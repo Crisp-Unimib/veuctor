@@ -250,20 +250,22 @@ in European statistical infrastructure.
 #  Citations
 If you use **VEUCTOR** in your research, please cite:
 
-**Mercorio, F.; Menini, S.; Catasta, M.; Basile, V.**  
+**Emilio Colombo and Simone D’Amico and Fabio Mercorio and Mario Mezzanzanica**  
 *Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements.*  
-*Information Sciences* **2026**, *Volume XX*, pp. YY–ZZ.  
+*Information Sciences* **2026**, *Volume 741*
 🔗 https://www.sciencedirect.com/science/article/pii/S0020025526002057
 
 ### BibTeX
 ```bibtex
-@article{mercorio_et_al_2026,
-  title        = {Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements},
-  author       = {Mercorio, Fabio and Menini, Stefano and Catasta, Michele and Basile, Valerio},
-  journal      = {Information Sciences},
-  year         = {2026},
-  volume       = {##TO_FILL##},
-  pages        = {##TO_FILL##},
-  doi          = {10.1016/j.ins.2026.01.013},
-  url          = {https://www.sciencedirect.com/science/article/pii/S0020025526002057}
+@article{COLOMBO2026123274,
+title = {VEUCTOR: Training and selecting best vector space models from online job ads for European countries},
+journal = {Information Sciences},
+volume = {741},
+pages = {123274},
+year = {2026},
+issn = {0020-0255},
+doi = {https://doi.org/10.1016/j.ins.2026.123274},
+url = {https://www.sciencedirect.com/science/article/pii/S0020025526002057},
+author = {Emilio Colombo and Simone D’Amico and Fabio Mercorio and Mario Mezzanzanica},
+keywords = {Word embedding, Machine learning, Labor market, NLP}
 }
