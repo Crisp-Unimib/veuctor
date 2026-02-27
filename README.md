@@ -10,11 +10,25 @@ VEUCTOR is a **reproducible methodological framework** for training,
 selecting, and aligning word embedding models built from European Online
 Job Advertisements (OJAs).
 
-It accompanies the research article:
+If you use **VEUCTOR** in your research, please cite:
 
-**Colombo, E., D'Amico, S., Mercorio, F., Mezzanzanica, M. (2026).\
-*VEUCTOR: Training and Selecting Best Vector Space Models from Online
-Job Ads for European Countries.* Preprint submitted to Elsevier.**
+**Mercorio, F.; Menini, S.; Catasta, M.; Basile, V.**  
+*Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements.*  
+*Information Sciences* **2026**, *Volume XX*, pp. YY–ZZ.  
+🔗 https://www.sciencedirect.com/science/article/pii/S0020025526002057
+
+### BibTeX
+```bibtex
+@article{mercorio_et_al_2026,
+  title        = {Training, Selecting, and Aligning Word Embeddings from European Online Job Advertisements},
+  author       = {Mercorio, Fabio and Menini, Stefano and Catasta, Michele and Basile, Valerio},
+  journal      = {Information Sciences},
+  year         = {2026},
+  volume       = {##TO_FILL##},
+  pages        = {##TO_FILL##},
+  doi          = {10.1016/j.ins.2026.01.013},
+  url          = {https://www.sciencedirect.com/science/article/pii/S0020025526002057}
+}
 
 Unlike standard embedding repositories, VEUCTOR does not treat word
 embeddings as neutral preprocessing tools.\
